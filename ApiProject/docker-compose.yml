@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  apiproject:
+    image: ${DOCKER_REGISTRY-}apiproject
+    build:
+      context: .
+      dockerfile: ApiProject/Dockerfile

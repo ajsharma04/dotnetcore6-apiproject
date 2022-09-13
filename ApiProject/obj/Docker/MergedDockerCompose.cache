@@ -1,0 +1,16 @@
+services:
+  apiproject:
+    build:
+      context: C:\source\3e19667b-82c3-4c45-8700-6ee426b8830d\3\ApiProject
+      dockerfile: ApiProject/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: apiproject
+    ports:
+    - target: 80
+    - target: 443
+    volumes:
+    - C:\Users\ajsharma\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\ajsharma\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'

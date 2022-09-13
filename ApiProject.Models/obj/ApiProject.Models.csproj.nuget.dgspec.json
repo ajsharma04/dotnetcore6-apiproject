@@ -1,0 +1,150 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\source\\3e19667b-82c3-4c45-8700-6ee426b8830d\\3\\ApiProject.Models\\ApiProject.Models.csproj": {}
+  },
+  "projects": {
+    "C:\\source\\3e19667b-82c3-4c45-8700-6ee426b8830d\\3\\ApiProject.Models\\ApiProject.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\source\\3e19667b-82c3-4c45-8700-6ee426b8830d\\3\\ApiProject.Models\\ApiProject.Models.csproj",
+        "projectName": "ApiProject.Models",
+        "projectPath": "C:\\source\\3e19667b-82c3-4c45-8700-6ee426b8830d\\3\\ApiProject.Models\\ApiProject.Models.csproj",
+        "packagesPath": "C:\\Users\\ajsharma\\.nuget\\packages\\",
+        "outputPath": "C:\\source\\3e19667b-82c3-4c45-8700-6ee426b8830d\\3\\ApiProject.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ajsharma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://sitecore.myget.org/F/sc-packages/api/v3/index.json": {},
+          "https://teamcity.australianunity.net.au/httpAuth/app/nuget/v1/FeedService.svc/": {},
+          "https://www.nuget.org/api/v2": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\source\\3e19667b-82c3-4c45-8700-6ee426b8830d\\3\\ApiProject\\ApiProject.Contracts\\ApiProject.Contracts.csproj": {
+                "projectPath": "C:\\source\\3e19667b-82c3-4c45-8700-6ee426b8830d\\3\\ApiProject\\ApiProject.Contracts\\ApiProject.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\source\\3e19667b-82c3-4c45-8700-6ee426b8830d\\3\\ApiProject\\ApiProject.Contracts\\ApiProject.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\source\\3e19667b-82c3-4c45-8700-6ee426b8830d\\3\\ApiProject\\ApiProject.Contracts\\ApiProject.Contracts.csproj",
+        "projectName": "ApiProject.Contracts",
+        "projectPath": "C:\\source\\3e19667b-82c3-4c45-8700-6ee426b8830d\\3\\ApiProject\\ApiProject.Contracts\\ApiProject.Contracts.csproj",
+        "packagesPath": "C:\\Users\\ajsharma\\.nuget\\packages\\",
+        "outputPath": "C:\\source\\3e19667b-82c3-4c45-8700-6ee426b8830d\\3\\ApiProject\\ApiProject.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ajsharma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://sitecore.myget.org/F/sc-packages/api/v3/index.json": {},
+          "https://teamcity.australianunity.net.au/httpAuth/app/nuget/v1/FeedService.svc/": {},
+          "https://www.nuget.org/api/v2": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
